@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login Form</title>
+</head>
+<body>
+    <form action="" class="form">
+        <fieldset>
+            <legend>Login Form</legend>
+            
+            <!-- Mobile Number Input -->
+            <div>
+                <input type="tel" placeholder="Enter Mobile Number" pattern="[0-9]{10}" required>
+            </div>
+            
+            <!-- Send OTP Button -->
+            <div>
+                <button type="submit">Send OTP</button>
+            </div>
+            
+            <!-- OR Divider -->
+            <div class="or-divider">OR</div>
+            
+            <!-- Login Options -->
+            <div class="login-container">
+                <button type="button" class="btn btn-email">
+                    <img src="https://img.icons8.com/ios-filled/20/ffffff/new-post.png" alt="Email Icon" /> Continue with Email
+                </button>
+                <button type="button" class="btn btn-google">
+                    <img src="https://img.icons8.com/color/20/000000/google-logo.png" alt="Google Icon" /> Sign in with Google
+                </button>
+            </div>
+            
+            <!-- Create Account Link -->
+            <div class="create-account">
+                <a href="#">Are you a new user? Create an account</a>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
